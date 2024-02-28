@@ -19,13 +19,16 @@ console.log(resultado);
 resultado = Math.floor(64.9);
 console.log(resultado);
 
+let raiz = 64;
 //Raiz Cuadrada
-resultado = Math.sqrt(9);
-console.log(`La raiz cuadrada de 9 es: ${resultado}`);
+resultado = Math.sqrt(raiz);
+console.log(`La raiz cuadrada de ${raiz} es: ${resultado}`);
 
-//Elevar numeros
-resultado = Math.pow(8, 2);
-console.log(`El resultado de elevar 8 a la 2 es:${resultado}`);
+//Elevar numeros a una potencia
+
+
+resultado = 4;
+console.log(`El resultado de elevar 8 a la 2 es:${Math.pow(resultado, 2)}`);
 
 // Sacar el valor minimo
 resultado = Math.min(7,10,15,11,20);

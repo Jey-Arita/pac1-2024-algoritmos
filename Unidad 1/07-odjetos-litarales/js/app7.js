@@ -6,6 +6,7 @@ const producto = {
     modelo: 'Carrera',
 };
 
+//Con esta linea no permitimos que un objeto se pueda modificar de ninguna manera
 Object.freeze(producto);
 
 /* Agregar propiedades a un objeto

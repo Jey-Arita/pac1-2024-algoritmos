@@ -2,7 +2,7 @@ const producto = 'Monitor de 23 pulgadas';
 
 // repetir cadena de texto
 
-const texto = ' en promocion'.repeat(3);
+const texto = ' en promocion'.repeat(4);
 console.log(texto);
 
 console.log(`${producto} ${texto}!!!`);

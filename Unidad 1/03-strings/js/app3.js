@@ -1,3 +1,5 @@
+//Concatenar variables o strings
+
 const producto = 'Mouse DEll';
 const precio = 'L 299.99';
 

@@ -13,7 +13,7 @@ const producto = {
         }
     }
 }
-
+// Destryendo un objeto que esta dentro de otro objeto
 const { nombre } = producto;
 const { informacion } = producto
 const { informacion: { fabricacion: { pais } } } = producto;

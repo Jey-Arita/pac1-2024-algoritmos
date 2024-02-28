@@ -16,4 +16,4 @@ console.log('Buscar espacio: ' + producto.indexOf(' '));
 // Funcion includes
 
 console.log('Buscar Monitor: ' + producto.includes('Monitor'));
-console.log('Buscar Monitor: ' + producto.includes('monitor'));
+console.log('Buscar monitor: ' + producto.includes('monitor'));
