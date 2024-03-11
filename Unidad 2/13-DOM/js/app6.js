@@ -13,3 +13,7 @@ const encabezadoContenido = document.querySelector('.contenido-hero h1').textCon
 console.log(encabezadoContenido);
 
 document.querySelector('.contenido-hero h1').textContent = 'Nuevo Titulo para la pagina web';
+
+const imagen = document.querySelector('.card img');
+
+imagen.src = 'https://tiempo.hn/wp-content/uploads/2019/09/JOH-1-547x420.jpg';
