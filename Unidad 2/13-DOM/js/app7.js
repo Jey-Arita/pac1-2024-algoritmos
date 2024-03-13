@@ -16,4 +16,4 @@ card.classList.add('nueva-clase', 'segunda-nueva-clase');
 console.log(card.classList);
 
 //Eliminar una clase
-card.classList.remove('card')
+card.classList.remove('card');
